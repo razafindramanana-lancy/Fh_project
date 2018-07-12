@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+  /* line 2, ../sass/sm.scss */
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+}
+@media (max-width: 991px) {
+  /* line 13, ../sass/sm.scss */
+  .header-top .form-group input[type=text] {
+    width: 157px;
+    background-position: 127px 4px;
+    padding: 6px 40px 6px 10px;
+  }
+  /* line 19, ../sass/sm.scss */
+  .header-top .user-btn {
+    margin-top: 5px;
+  }
+
+  /* line 23, ../sass/sm.scss */
+  h3 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1050px) {
+  /* line 31, ../sass/sm.scss */
+  .header-top .logo img {
+    width: 405px !important;
+  }
+  /* line 35, ../sass/sm.scss */
+  .header-top::after {
+    height: 27px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  /* line 44, ../sass/sm.scss */
+  .header-top .logo img {
+    width: 405px !important;
+  }
+  /* line 48, ../sass/sm.scss */
+  .header-top::after {
+    height: 27px;
+  }
+  /* line 51, ../sass/sm.scss */
+  .header-top .logo-titre {
+    margin: 10px auto 30px;
+    width: 60%;
+  }
+
+  /* line 58, ../sass/sm.scss */
+  .navbar .nav-menu .nav-link {
+    font-size: 13px;
+    margin: 0 3px;
+    padding: 0 0 5px;
+  }
+}

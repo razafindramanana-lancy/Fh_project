@@ -1,0 +1,42 @@
+@media (max-width: 1199px) {}
+
+@media (min-width: 1050px) and (max-width: 1199px) {
+   .header-top {
+      .logo {
+         img {
+            width: 530px !important;
+         }
+      }
+      &::after {
+         height: 35px;
+      }
+      .form-group {
+         input[type=text] {
+            width: 182px;
+            background-position: 151px 3px;
+            padding: 6px 40px 6px 10px;
+         }
+      }
+   }
+}
+@media (max-width: 1050px) {
+   h3 {
+      font-size: 35px;
+   }
+    .item-list .bg-left .list-group .list-group-item {
+      padding: .75rem 0;
+      font-size: 19px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1050px) {
+   .header-top {
+      .form-group {
+         input[type=text] {
+            width: 165px;
+            background-position: 132px 3px;
+            padding: 6px 40px 6px 10px;
+         }
+      }
+   }
+}

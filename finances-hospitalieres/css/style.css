@@ -1,0 +1,1083 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url("../fonts/Helvetica.woff2") format("woff2"), url("../fonts/Helvetica.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeue-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Light.woff2") format("woff2"), url("../fonts/HelveticaNeue-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-Blk.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-Blk.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Italic.woff2") format("woff2"), url("../fonts/HelveticaNeue-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeueMedium.woff2") format("woff2"), url("../fonts/HelveticaNeueMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeueItalic.woff2") format("woff2"), url("../fonts/HelveticaNeueItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-LightItalic.woff2") format("woff2"), url("../fonts/HelveticaNeue-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Italic.woff2") format("woff2"), url("../fonts/HelveticaNeue-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-BoldItalic.woff2") format("woff2"), url("../fonts/HelveticaNeue-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-BdIt.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-BdIt.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Medium.woff2") format("woff2"), url("../fonts/HelveticaNeue-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-It.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-It.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-MdIt.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-MdIt.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-Th.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-Th.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+/* line 121, ../sass/style.scss */
+body {
+  background-color: #ffffff;
+  color: #535456;
+  margin: 0;
+  font-family: 'Helvetica Neue';
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 130, ../sass/style.scss */
+.left {
+  float: left !important;
+}
+
+/* line 134, ../sass/style.scss */
+.right {
+  float: right !important;
+}
+
+/* line 138, ../sass/style.scss */
+.clear {
+  clear: both;
+}
+
+/* line 142, ../sass/style.scss */
+h1 {
+  margin: 0 0 25px;
+}
+
+/* line 146, ../sass/style.scss */
+h2 {
+  margin: 0 0 30px;
+  font-family: 'Helvetica Neue';
+  font-size: 37px;
+  font-weight: 300;
+  color: #009d93;
+}
+
+/* line 154, ../sass/style.scss */
+h3 {
+  font-size: 40px;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  color: #000000;
+  line-height: 1.3;
+  margin: 0 0 25px;
+}
+
+/* line 163, ../sass/style.scss */
+p {
+  margin: 0 0 25px;
+  font-size: 17px;
+  font-weight: normal;
+  color: #000000;
+  line-height: 1.7;
+}
+
+/* line 171, ../sass/style.scss */
+.badge-primary {
+  background-color: #0ba499;
+  color: #ffffff;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-size: 23px;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+/* line 181, ../sass/style.scss */
+.badge {
+  white-space: normal;
+}
+
+/* line 185, ../sass/style.scss */
+.clear {
+  clear: both;
+}
+
+/* line 189, ../sass/style.scss */
+.header-top {
+  position: relative;
+  background-color: #00a499;
+  padding: 50px 25px 0;
+}
+/* line 193, ../sass/style.scss */
+.header-top::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 47px;
+  background-color: #fff;
+}
+/* line 202, ../sass/style.scss */
+.header-top .container-fluid {
+  max-width: 1500px;
+  position: relative;
+  z-index: 2;
+}
+/* line 208, ../sass/style.scss */
+.header-top .letter .alert-link {
+  color: #00a499;
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: bold;
+}
+/* line 215, ../sass/style.scss */
+.header-top .logo-titre {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0px;
+  margin: 20px 0 24px;
+}
+/* line 222, ../sass/style.scss */
+.header-top .logo {
+  position: relative;
+}
+/* line 224, ../sass/style.scss */
+.header-top .logo img {
+  width: 727px;
+}
+/* line 228, ../sass/style.scss */
+.header-top .form-group {
+  margin: 10;
+}
+/* line 230, ../sass/style.scss */
+.header-top .form-group input[type=text] {
+  width: 235px;
+  box-sizing: border-box;
+  border-radius: 0;
+  background-color: #00a499;
+  border: solid 0.5px transparent;
+  font-size: 14px;
+  background-image: url(../images/search-icon.png);
+  background-position: 200px 4px;
+  padding: 6px 40px 6px 10px;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  box-shadow: none;
+  border-bottom: 1px solid #ffffff;
+}
+/* line 244, ../sass/style.scss */
+.header-top .form-group input[type=text]::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+/* line 252, ../sass/style.scss */
+.navbar .container-fluid {
+  max-width: 1400px;
+  position: relative;
+  z-index: 2;
+}
+/* line 257, ../sass/style.scss */
+.navbar .nav-menu {
+  width: 100%;
+}
+/* line 259, ../sass/style.scss */
+.navbar .nav-menu .nav-link {
+  vertical-align: middle;
+  width: 1%;
+  font-size: 15px;
+  font-weight: normal;
+  color: #000000;
+  border-bottom: solid 4px #000000;
+  border-radius: 0;
+  margin: 0 3px;
+  padding: 0 0 15px;
+}
+
+/* line 273, ../sass/style.scss */
+main.container-fluid {
+  max-width: 1400px;
+  position: relative;
+  z-index: 2;
+}
+/* line 278, ../sass/style.scss */
+main.container-fluid .main-left h3 {
+  border-bottom: 5px solid #0ba499;
+  padding-bottom: 20px;
+}
+/* line 282, ../sass/style.scss */
+main.container-fluid .main-left .btn-post {
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+
+/* line 291, ../sass/style.scss */
+.blog-post-meta {
+  font-family: 'Helvetica Neue';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+  color: #a6a6a6;
+}
+/* line 297, ../sass/style.scss */
+.blog-post-meta a {
+  color: inherit;
+}
+
+/* line 303, ../sass/style.scss */
+#doss .item-doss {
+  border-radius: 3px;
+  border: solid 1px #e1e1e1;
+  background-color: #f4f4f4;
+  color: #000000;
+}
+/* line 308, ../sass/style.scss */
+#doss .item-doss:hover {
+  border: solid 1px #0ba499;
+  background-color: #f4f4f4;
+}
+/* line 312, ../sass/style.scss */
+#doss .item-doss a {
+  position: relative;
+  font-size: 23px;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  font-family: 'Helvetica Neue LT Std';
+  line-height: 1.3;
+  padding: 50px 25px;
+}
+/* line 322, ../sass/style.scss */
+#doss .item-doss a:hover {
+  color: #0ba499;
+  text-decoration: none;
+}
+
+/* line 331, ../sass/style.scss */
+.item-list .bg-left {
+  flex: 1;
+  background-color: #0ba499;
+}
+/* line 335, ../sass/style.scss */
+.item-list .bg-left .list-group .list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: transparent;
+  font-weight: 900;
+  font-style: normal;
+  font-family: 'Helvetica Neue LT Std';
+  color: #54bfb7;
+  border: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  font-size: 21px;
+  text-align: left;
+}
+/* line 350, ../sass/style.scss */
+.item-list .bg-left .list-group .list-group-item:hover {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  border-bottom: 1px solid #7ecec7;
+}
+/* line 359, ../sass/style.scss */
+.item-list .bg-right {
+  flex: 2;
+}
+/* line 361, ../sass/style.scss */
+.item-list .bg-right .item-view {
+  border: solid 1px #e1e1e1;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+}
+/* line 367, ../sass/style.scss */
+.item-list .bg-right .item-view::before {
+  content: "\f02e";
+  font-family: 'FontAwesome';
+  right: 15px;
+  position: absolute;
+  top: -8px;
+  color: #a6a6a6;
+  font-size: 25px;
+}
+/* line 375, ../sass/style.scss */
+.item-list .bg-right .item-view::before:hover {
+  color: red;
+  background-color: yellow;
+}
+/* line 380, ../sass/style.scss */
+.item-list .bg-right .item-view h3 {
+  font-size: 25px;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  color: #000000;
+  line-height: 1.3;
+  margin: 0 0 25px;
+  border-bottom: 4px solid #0ba499;
+  padding-bottom: 20px;
+}
+/* line 389, ../sass/style.scss */
+.item-list .bg-right .item-view h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 394, ../sass/style.scss */
+.item-list .bg-right .item-view .blog-post-meta {
+  font-family: 'Helvetica Neue';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+  color: #a6a6a6;
+}
+/* line 400, ../sass/style.scss */
+.item-list .bg-right .item-view .blog-post-meta a {
+  color: inherit;
+}
+/* line 404, ../sass/style.scss */
+.item-list .bg-right .item-view .btn-post {
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+/* line 412, ../sass/style.scss */
+.item-list .bg-right .item-more {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
+/* line 417, ../sass/style.scss */
+.item-list .bg-right .item-more .btn-primary {
+  border-radius: 4px;
+  background-color: #009d93;
+  border-color: transparent;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+/* line 429, ../sass/style.scss */
+.item-list-edit .bg-left-edit {
+  flex: 1;
+  background-color: #3a6b96;
+}
+/* line 433, ../sass/style.scss */
+.item-list-edit .bg-left-edit .list-group .list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: transparent;
+  font-weight: 900;
+  font-style: normal;
+  font-family: 'Helvetica Neue LT Std';
+  color: #7496b4;
+  border: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  font-size: 21px;
+  text-align: left;
+}
+/* line 448, ../sass/style.scss */
+.item-list-edit .bg-left-edit .list-group .list-group-item:hover {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  border-bottom: 1px solid #acc0d2;
+}
+/* line 457, ../sass/style.scss */
+.item-list-edit .bg-right-edit {
+  flex: 2;
+}
+/* line 459, ../sass/style.scss */
+.item-list-edit .bg-right-edit .badge-primary {
+  background-color: #3a6b96;
+  color: #ffffff;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  font-size: 23px;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+/* line 468, ../sass/style.scss */
+.item-list-edit .bg-right-edit .item-view {
+  border: solid 1px #e1e1e1;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+}
+/* line 474, ../sass/style.scss */
+.item-list-edit .bg-right-edit .item-view::before {
+  content: "\f02e";
+  font-family: 'FontAwesome';
+  right: 15px;
+  position: absolute;
+  top: -8px;
+  color: #a6a6a6;
+  font-size: 25px;
+}
+/* line 482, ../sass/style.scss */
+.item-list-edit .bg-right-edit .item-view::before:hover {
+  color: red;
+  background-color: yellow;
+}
+/* line 487, ../sass/style.scss */
+.item-list-edit .bg-right-edit .item-view h3 {
+  font-size: 25px;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  color: #000000;
+  line-height: 1.3;
+  margin: 0 0 25px;
+  border-bottom: 4px solid #3a6b96;
+  padding-bottom: 20px;
+}
+/* line 496, ../sass/style.scss */
+.item-list-edit .bg-right-edit .item-view h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 501, ../sass/style.scss */
+.item-list-edit .bg-right-edit .item-view .blog-post-meta {
+  font-family: 'Helvetica Neue';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+  color: #a6a6a6;
+}
+/* line 507, ../sass/style.scss */
+.item-list-edit .bg-right-edit .item-view .blog-post-meta a {
+  color: inherit;
+}
+/* line 511, ../sass/style.scss */
+.item-list-edit .bg-right-edit .item-view .btn-post {
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+}
+/* line 518, ../sass/style.scss */
+.item-list-edit .bg-right-edit .item-more {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
+/* line 523, ../sass/style.scss */
+.item-list-edit .bg-right-edit .item-more .btn-primary {
+  border-radius: 4px;
+  background-color: #3a6b96;
+  border-color: transparent;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+/* line 534, ../sass/style.scss */
+.bloc-link {
+  background-color: #f6f6f6;
+}
+/* line 536, ../sass/style.scss */
+.bloc-link .p-link {
+  list-style-type: none;
+  display: list-item;
+  font-size: 16px;
+  font-family: 'Helvetica Neue LT Std';
+  font-weight: 900;
+  color: #000000;
+}
+/* line 543, ../sass/style.scss */
+.bloc-link .p-link::before {
+  content: '\2022';
+  color: #0ba499;
+  padding-right: 0.5em;
+}
+
+/* line 551, ../sass/style.scss */
+section.newsletter {
+  background-color: #00a499;
+  position: relative;
+}
+/* line 554, ../sass/style.scss */
+section.newsletter h2 {
+  margin: 0 0 30px;
+  font-family: 'Helvetica Neue';
+  font-size: 49px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: normal;
+  color: #ffffff;
+}
+/* line 563, ../sass/style.scss */
+section.newsletter p {
+  color: #ffffff;
+}
+/* line 566, ../sass/style.scss */
+section.newsletter .form-signin {
+  width: 100%;
+  max-width: 450px;
+  padding: 15px;
+  margin: auto;
+}
+/* line 571, ../sass/style.scss */
+section.newsletter .form-signin .input-group {
+  height: 50px;
+}
+/* line 574, ../sass/style.scss */
+section.newsletter .form-signin .btn-secondary {
+  color: #00a499;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 581, ../sass/style.scss */
+section.newsletter .form-signin input.form-control {
+  color: #ffffff;
+  background-color: #00a499;
+  border: 2px solid #ffffff;
+  border-left: none;
+}
+/* line 586, ../sass/style.scss */
+section.newsletter .form-signin input.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+/* line 589, ../sass/style.scss */
+section.newsletter .form-signin input.form-control:-moz-placeholder {
+  color: #ffffff;
+}
+/* line 592, ../sass/style.scss */
+section.newsletter .form-signin input.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+/* line 595, ../sass/style.scss */
+section.newsletter .form-signin input.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+/* line 599, ../sass/style.scss */
+section.newsletter .form-signin .input-group-text {
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #00a499;
+  border: 2px solid #ffffff;
+  border-right: none;
+}
+
+/* line 609, ../sass/style.scss */
+.bottom-content {
+  max-width: 1400px;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 615, ../sass/style.scss */
+footer {
+  background-color: #f6f6f6;
+}
+/* line 617, ../sass/style.scss */
+footer h3 {
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  text-transform: uppercase;
+}
+/* line 627, ../sass/style.scss */
+footer .list ul li a {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+/* line 632, ../sass/style.scss */
+footer .list ul li a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 641, ../sass/style.scss */
+footer .list-1 {
+  border-right: 1px solid #dbdbdb;
+}
+/* line 644, ../sass/style.scss */
+footer .list-1 ul li {
+  list-style-type: disc;
+}
+/* line 649, ../sass/style.scss */
+footer .list-2 {
+  border-right: 1px solid #dbdbdb;
+  padding-left: 35px;
+}
+/* line 653, ../sass/style.scss */
+footer .list-2 ul li {
+  margin-bottom: 10px;
+}
+/* line 658, ../sass/style.scss */
+footer .list-3 {
+  padding-left: 35px;
+}
+/* line 661, ../sass/style.scss */
+footer .list-3 ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1420px) {
+  /* line 8, ../sass/lg.scss */
+  .header-top .logo img {
+    width: 715px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* line 18, ../sass/lg.scss */
+  .header-top .logo img {
+    width: 600px;
+  }
+  /* line 22, ../sass/lg.scss */
+  .header-top::after {
+    height: 39px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1350px) {
+  /* line 31, ../sass/lg.scss */
+  .header-top .form-group input[type=text] {
+    width: 200px !important;
+    background-position: 167px 3px;
+    padding: 6px 40px 6px 10px;
+  }
+}
+@media (min-width: 1050px) and (max-width: 1199px) {
+  /* line 6, ../sass/md.scss */
+  .header-top .logo img {
+    width: 530px !important;
+  }
+  /* line 10, ../sass/md.scss */
+  .header-top::after {
+    height: 35px;
+  }
+  /* line 14, ../sass/md.scss */
+  .header-top .form-group input[type=text] {
+    width: 182px;
+    background-position: 151px 3px;
+    padding: 6px 40px 6px 10px;
+  }
+}
+@media (max-width: 1050px) {
+  /* line 23, ../sass/md.scss */
+  h3 {
+    font-size: 35px;
+  }
+
+  /* line 26, ../sass/md.scss */
+  .item-list .bg-left .list-group .list-group-item {
+    padding: .75rem 0;
+    font-size: 19px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1050px) {
+  /* line 35, ../sass/md.scss */
+  .header-top .form-group input[type=text] {
+    width: 165px;
+    background-position: 132px 3px;
+    padding: 6px 40px 6px 10px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 2, ../sass/sm.scss */
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+}
+@media (max-width: 991px) {
+  /* line 13, ../sass/sm.scss */
+  .header-top .form-group input[type=text] {
+    width: 157px;
+    background-position: 127px 4px;
+    padding: 6px 40px 6px 10px;
+  }
+  /* line 19, ../sass/sm.scss */
+  .header-top .user-btn {
+    margin-top: 5px;
+  }
+
+  /* line 23, ../sass/sm.scss */
+  h3 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1050px) {
+  /* line 31, ../sass/sm.scss */
+  .header-top .logo img {
+    width: 405px !important;
+  }
+  /* line 35, ../sass/sm.scss */
+  .header-top::after {
+    height: 27px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  /* line 44, ../sass/sm.scss */
+  .header-top .logo img {
+    width: 405px !important;
+  }
+  /* line 48, ../sass/sm.scss */
+  .header-top::after {
+    height: 27px;
+  }
+  /* line 51, ../sass/sm.scss */
+  .header-top .logo-titre {
+    margin: 10px auto 30px;
+    width: 60%;
+  }
+
+  /* line 58, ../sass/sm.scss */
+  .navbar .nav-menu .nav-link {
+    font-size: 13px;
+    margin: 0 3px;
+    padding: 0 0 5px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 3, ../sass/xs.scss */
+  h2 {
+    font-size: 25px;
+  }
+
+  /* line 6, ../sass/xs.scss */
+  h3 {
+    font-size: 18px !important;
+    margin: 0 0 25px;
+  }
+
+  /* line 10, ../sass/xs.scss */
+  p {
+    font-size: 12px;
+  }
+
+  /* line 13, ../sass/xs.scss */
+  .badge-primary {
+    font-size: 15px;
+    padding: 7px 10px;
+  }
+
+  /* line 17, ../sass/xs.scss */
+  .header-top {
+    padding: 35px 15px 0;
+  }
+  /* line 20, ../sass/xs.scss */
+  .header-top .logo img {
+    max-width: 100% !important;
+    width: 415px !important;
+    margin-top: 35px;
+  }
+  /* line 26, ../sass/xs.scss */
+  .header-top::after {
+    height: 97px;
+  }
+  /* line 29, ../sass/xs.scss */
+  .header-top .form-group {
+    display: none;
+  }
+  /* line 32, ../sass/xs.scss */
+  .header-top .logo-titre {
+    color: #7f7f7f;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 5px;
+  }
+
+  /* line 38, ../sass/xs.scss */
+  .navbar {
+    margin: 0 !important;
+  }
+  /* line 41, ../sass/xs.scss */
+  .navbar .nav-menu .nav-link {
+    vertical-align: middle;
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000000;
+    border-bottom: solid 4px #000000;
+    border-radius: 0;
+    margin: 0 auto 15px;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  /* line 56, ../sass/xs.scss */
+  section.newsletter h2 {
+    margin: 0 0 30px;
+    font-family: 'Helvetica Neue';
+    font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+    color: #ffffff;
+  }
+
+  /* line 66, ../sass/xs.scss */
+  .item-list .bg-right .item-view h3 {
+    font-size: 18px;
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+  }
+
+  /* line 71, ../sass/xs.scss */
+  .item-list-edit .bg-right-edit .item-view h3 {
+    font-size: 18px;
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+  }
+
+  /* line 76, ../sass/xs.scss */
+  .item-list-edit .bg-right-edit .badge-primary {
+    font-size: 20px;
+    padding: 10px 0;
+    width: 100%;
+    line-height: 1.2;
+  }
+
+  /* line 82, ../sass/xs.scss */
+  .bloc-link {
+    padding: 35px !important;
+    margin: 0;
+  }
+
+  /* line 86, ../sass/xs.scss */
+  section.newsletter {
+    text-align: left !important;
+    padding: 2rem !important;
+  }
+  /* line 89, ../sass/xs.scss */
+  section.newsletter h2 {
+    margin: 0 0 20px;
+  }
+  /* line 92, ../sass/xs.scss */
+  section.newsletter p {
+    margin: 0 0 10px;
+  }
+  /* line 95, ../sass/xs.scss */
+  section.newsletter .form-signin {
+    margin: 0 auto 75px;
+  }
+  /* line 97, ../sass/xs.scss */
+  section.newsletter .form-signin input.form-control {
+    border-radius: 3px;
+    height: 60px;
+  }
+  /* line 101, ../sass/xs.scss */
+  section.newsletter .form-signin .input-group-append {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 30px;
+  }
+  /* line 106, ../sass/xs.scss */
+  section.newsletter .form-signin .btn-secondary {
+    font-size: 20px;
+    margin: 0 auto;
+    display: table;
+    border-radius: 3px;
+    padding: 7px 20px;
+  }
+
+  /* line 117, ../sass/xs.scss */
+  #doss .item-doss a {
+    font-size: 15px;
+  }
+
+  /* line 122, ../sass/xs.scss */
+  .main-right {
+    display: flex !important;
+  }
+
+  /* line 126, ../sass/xs.scss */
+  .item-list .bg-right {
+    margin-top: 25px;
+  }
+
+  /* line 130, ../sass/xs.scss */
+  .navbar-toggler {
+    color: #f6f6f6;
+  }
+
+  /* line 133, ../sass/xs.scss */
+  main.container-fluid {
+    margin-top: 0 !important;
+  }
+
+  /* line 136, ../sass/xs.scss */
+  .xs-mod {
+    max-width: 10% !important;
+  }
+
+  /* line 139, ../sass/xs.scss */
+  .mod {
+    flex: 0 0 80% !important;
+    max-width: 80% !important;
+  }
+
+  /* line 143, ../sass/xs.scss */
+  footer .list {
+    margin-bottom: 30px;
+    border: none;
+  }
+
+  /* line 147, ../sass/xs.scss */
+  .bottom-content {
+    padding: 0;
+  }
+}
+/* -------------------------- */
+@media (max-width: 607px) {
+  /* line 154, ../sass/xs.scss */
+  .header-top {
+    padding: 35px 15px 0;
+  }
+  /* line 157, ../sass/xs.scss */
+  .header-top .logo img {
+    max-width: 100% !important;
+    width: 415px !important;
+    margin-top: 35px;
+  }
+  /* line 163, ../sass/xs.scss */
+  .header-top::after {
+    height: 117px;
+  }
+}
+@media (max-width: 575px) {
+  /* line 170, ../sass/xs.scss */
+  .header-top {
+    padding: 35px 15px 0;
+  }
+  /* line 173, ../sass/xs.scss */
+  .header-top .logo img {
+    max-width: 100% !important;
+    width: 315px !important;
+    margin-top: 35px;
+  }
+  /* line 179, ../sass/xs.scss */
+  .header-top::after {
+    height: 110px;
+  }
+}
+@media (max-width: 435px) {
+  /* line 186, ../sass/xs.scss */
+  .header-top {
+    padding: 25px 0 0;
+  }
+  /* line 189, ../sass/xs.scss */
+  .header-top .logo img {
+    max-width: 100% !important;
+    width: 230px !important;
+    margin-top: 35px;
+  }
+  /* line 195, ../sass/xs.scss */
+  .header-top::after {
+    height: 125px;
+  }
+
+  /* line 199, ../sass/xs.scss */
+  .xs-mod {
+    max-width: 10% !important;
+  }
+
+  /* line 202, ../sass/xs.scss */
+  .navbar-toggler {
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+}
+@media (min-width: 353px) and (max-width: 435px) {
+  /* line 211, ../sass/xs.scss */
+  .header-top::after {
+    height: 105px;
+  }
+}

@@ -1,0 +1,215 @@
+@media (max-width: 767px) {
+
+   h2 {
+      font-size: 25px;
+   }
+   h3 {
+      font-size: 18px !important;
+      margin: 0 0 25px;
+   }
+   p {
+      font-size: 12px;
+   }
+   .badge-primary {
+      font-size: 15px;
+      padding: 7px 10px;
+   }
+   .header-top {
+      padding: 35px 15px 0;
+      .logo {
+         img {
+            max-width: 100% !important;
+            width: 415px !important;
+            margin-top: 35px;
+         }
+      }
+      &::after {
+         height: 97px;
+      }
+      .form-group {
+         display: none;
+      }
+      .logo-titre {
+         color: #7f7f7f;
+         border-bottom: 1px solid #dbdbdb;
+         padding-bottom: 5px;
+      }
+   }
+   .navbar {
+      margin: 0 !important;
+      .nav-menu {
+         .nav-link {
+            vertical-align: middle;
+            width: 100%;
+            font-size: 15px;
+            font-weight: normal;
+            color: #000000;
+            border-bottom: solid 4px #000000;
+            border-radius: 0;
+            margin: 0 auto 15px;
+            padding: 5px 0;
+            text-align: center;
+         }
+      }
+   }
+   section.newsletter {
+      h2 {
+         margin: 0 0 30px;
+         font-family: 'Helvetica Neue';
+         font-size: 25px;
+         font-weight: 300;
+         font-style: normal;
+         line-height: normal;
+         color: #ffffff;
+      }
+   }
+  .item-list .bg-right .item-view h3 {
+      font-size: 18px;
+      margin: 0 0 15px;
+      padding-bottom: 15px;
+  }
+  .item-list-edit .bg-right-edit .item-view h3 {
+    font-size: 18px;
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+  }
+  .item-list-edit .bg-right-edit .badge-primary {
+      font-size: 20px;
+      padding: 10px 0;
+      width: 100%;
+      line-height: 1.2;
+  }
+  .bloc-link {
+    padding: 35px !important;
+    margin: 0;
+  }
+  section.newsletter {
+    text-align: left!important;
+    padding: 2rem!important;
+    h2 {
+      margin: 0 0 20px;
+    }
+    p {
+      margin: 0 0 10px;
+    }
+    .form-signin {
+      margin: 0 auto 75px;
+      input.form-control {
+          border-radius: 3px;
+          height: 60px;
+      }
+      .input-group-append {
+          margin-left: 0;
+          width: 100%;
+          margin-top: 30px;
+      }
+      .btn-secondary {
+          font-size: 20px;
+          margin: 0 auto;
+          display: table;
+          border-radius: 3px;
+          padding: 7px 20px;
+      }
+    }
+  }
+  #doss {
+    .item-doss {
+       a {
+          font-size: 15px;
+       }
+    }
+  }
+   .main-right {
+      display: flex!important;
+   }
+   .item-list {
+      .bg-right {
+         margin-top: 25px;
+      }
+   }
+   .navbar-toggler {
+      color: #f6f6f6;
+   }
+   main.container-fluid {
+      margin-top: 0 !important;
+   }
+   .xs-mod {
+      max-width: 10% !important;
+   }
+   .mod {
+      flex: 0 0 80% !important;
+      max-width: 80% !important;
+   }
+   footer .list {
+      margin-bottom: 30px;
+      border: none;
+   }
+   .bottom-content {
+        padding: 0;
+    }
+
+} /* -------------------------- */
+
+@media (max-width: 607px) {
+   .header-top {
+      padding: 35px 15px 0;
+      .logo {
+         img {
+            max-width: 100% !important;
+            width: 415px !important;
+            margin-top: 35px;
+         }
+      }
+      &::after {
+         height: 117px;
+      }
+   }
+}
+
+@media (max-width: 575px) {
+   .header-top {
+      padding: 35px 15px 0;
+      .logo {
+         img {
+            max-width: 100% !important;
+            width: 315px !important;
+            margin-top: 35px;
+         }
+      }
+      &::after {
+         height: 110px;
+      }
+   }
+}
+
+@media (max-width: 435px) {
+   .header-top {
+      padding: 25px 0 0;
+      .logo {
+         img {
+            max-width: 100% !important;
+            width: 230px !important;
+            margin-top: 35px;
+         }
+      }
+      &::after {
+         height: 125px;
+      }
+   }
+   .xs-mod {
+      max-width: 10% !important;
+   }
+   .navbar-toggler {
+      position: absolute;
+      top: 0;
+      left: 15px;
+   }
+}
+
+@media (min-width: 353px) and (max-width: 435px) {
+   .header-top {
+      &::after {
+         height: 105px;
+      }
+   }
+}

@@ -1,0 +1,24 @@
+@media (max-width: 1420px) {
+  /* line 8, ../sass/lg.scss */
+  .header-top .logo img {
+    width: 715px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* line 18, ../sass/lg.scss */
+  .header-top .logo img {
+    width: 600px;
+  }
+  /* line 22, ../sass/lg.scss */
+  .header-top::after {
+    height: 39px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1350px) {
+  /* line 31, ../sass/lg.scss */
+  .header-top .form-group input[type=text] {
+    width: 200px !important;
+    background-position: 167px 3px;
+    padding: 6px 40px 6px 10px;
+  }
+}

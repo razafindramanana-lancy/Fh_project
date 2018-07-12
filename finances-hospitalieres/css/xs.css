@@ -1,0 +1,256 @@
+@media (max-width: 767px) {
+  /* line 3, ../sass/xs.scss */
+  h2 {
+    font-size: 25px;
+  }
+
+  /* line 6, ../sass/xs.scss */
+  h3 {
+    font-size: 18px !important;
+    margin: 0 0 25px;
+  }
+
+  /* line 10, ../sass/xs.scss */
+  p {
+    font-size: 12px;
+  }
+
+  /* line 13, ../sass/xs.scss */
+  .badge-primary {
+    font-size: 15px;
+    padding: 7px 10px;
+  }
+
+  /* line 17, ../sass/xs.scss */
+  .header-top {
+    padding: 35px 15px 0;
+  }
+  /* line 20, ../sass/xs.scss */
+  .header-top .logo img {
+    max-width: 100% !important;
+    width: 415px !important;
+    margin-top: 35px;
+  }
+  /* line 26, ../sass/xs.scss */
+  .header-top::after {
+    height: 97px;
+  }
+  /* line 29, ../sass/xs.scss */
+  .header-top .form-group {
+    display: none;
+  }
+  /* line 32, ../sass/xs.scss */
+  .header-top .logo-titre {
+    color: #7f7f7f;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 5px;
+  }
+
+  /* line 38, ../sass/xs.scss */
+  .navbar {
+    margin: 0 !important;
+  }
+  /* line 41, ../sass/xs.scss */
+  .navbar .nav-menu .nav-link {
+    vertical-align: middle;
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000000;
+    border-bottom: solid 4px #000000;
+    border-radius: 0;
+    margin: 0 auto 15px;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  /* line 56, ../sass/xs.scss */
+  section.newsletter h2 {
+    margin: 0 0 30px;
+    font-family: 'Helvetica Neue';
+    font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+    color: #ffffff;
+  }
+
+  /* line 66, ../sass/xs.scss */
+  .item-list .bg-right .item-view h3 {
+    font-size: 18px;
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+  }
+
+  /* line 71, ../sass/xs.scss */
+  .item-list-edit .bg-right-edit .item-view h3 {
+    font-size: 18px;
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+  }
+
+  /* line 76, ../sass/xs.scss */
+  .item-list-edit .bg-right-edit .badge-primary {
+    font-size: 20px;
+    padding: 10px 0;
+    width: 100%;
+    line-height: 1.2;
+  }
+
+  /* line 82, ../sass/xs.scss */
+  .bloc-link {
+    padding: 35px !important;
+    margin: 0;
+  }
+
+  /* line 86, ../sass/xs.scss */
+  section.newsletter {
+    text-align: left !important;
+    padding: 2rem !important;
+  }
+  /* line 89, ../sass/xs.scss */
+  section.newsletter h2 {
+    margin: 0 0 20px;
+  }
+  /* line 92, ../sass/xs.scss */
+  section.newsletter p {
+    margin: 0 0 10px;
+  }
+  /* line 95, ../sass/xs.scss */
+  section.newsletter .form-signin {
+    margin: 0 auto 75px;
+  }
+  /* line 97, ../sass/xs.scss */
+  section.newsletter .form-signin input.form-control {
+    border-radius: 3px;
+    height: 60px;
+  }
+  /* line 101, ../sass/xs.scss */
+  section.newsletter .form-signin .input-group-append {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 30px;
+  }
+  /* line 106, ../sass/xs.scss */
+  section.newsletter .form-signin .btn-secondary {
+    font-size: 20px;
+    margin: 0 auto;
+    display: table;
+    border-radius: 3px;
+    padding: 7px 20px;
+  }
+
+  /* line 117, ../sass/xs.scss */
+  #doss .item-doss a {
+    font-size: 15px;
+  }
+
+  /* line 122, ../sass/xs.scss */
+  .main-right {
+    display: flex !important;
+  }
+
+  /* line 126, ../sass/xs.scss */
+  .item-list .bg-right {
+    margin-top: 25px;
+  }
+
+  /* line 130, ../sass/xs.scss */
+  .navbar-toggler {
+    color: #f6f6f6;
+  }
+
+  /* line 133, ../sass/xs.scss */
+  main.container-fluid {
+    margin-top: 0 !important;
+  }
+
+  /* line 136, ../sass/xs.scss */
+  .xs-mod {
+    max-width: 10% !important;
+  }
+
+  /* line 139, ../sass/xs.scss */
+  .mod {
+    flex: 0 0 80% !important;
+    max-width: 80% !important;
+  }
+
+  /* line 143, ../sass/xs.scss */
+  footer .list {
+    margin-bottom: 30px;
+    border: none;
+  }
+
+  /* line 147, ../sass/xs.scss */
+  .bottom-content {
+    padding: 0;
+  }
+}
+/* -------------------------- */
+@media (max-width: 607px) {
+  /* line 154, ../sass/xs.scss */
+  .header-top {
+    padding: 35px 15px 0;
+  }
+  /* line 157, ../sass/xs.scss */
+  .header-top .logo img {
+    max-width: 100% !important;
+    width: 415px !important;
+    margin-top: 35px;
+  }
+  /* line 163, ../sass/xs.scss */
+  .header-top::after {
+    height: 117px;
+  }
+}
+@media (max-width: 575px) {
+  /* line 170, ../sass/xs.scss */
+  .header-top {
+    padding: 35px 15px 0;
+  }
+  /* line 173, ../sass/xs.scss */
+  .header-top .logo img {
+    max-width: 100% !important;
+    width: 315px !important;
+    margin-top: 35px;
+  }
+  /* line 179, ../sass/xs.scss */
+  .header-top::after {
+    height: 110px;
+  }
+}
+@media (max-width: 435px) {
+  /* line 186, ../sass/xs.scss */
+  .header-top {
+    padding: 25px 0 0;
+  }
+  /* line 189, ../sass/xs.scss */
+  .header-top .logo img {
+    max-width: 100% !important;
+    width: 230px !important;
+    margin-top: 35px;
+  }
+  /* line 195, ../sass/xs.scss */
+  .header-top::after {
+    height: 125px;
+  }
+
+  /* line 199, ../sass/xs.scss */
+  .xs-mod {
+    max-width: 10% !important;
+  }
+
+  /* line 202, ../sass/xs.scss */
+  .navbar-toggler {
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+}
+@media (min-width: 353px) and (max-width: 435px) {
+  /* line 211, ../sass/xs.scss */
+  .header-top::after {
+    height: 105px;
+  }
+}
