@@ -1,5 +1,4 @@
 @media (max-width: 767px) {
-
    h2 {
       font-size: 25px;
    }
@@ -13,6 +12,9 @@
    .badge-primary {
       font-size: 15px;
       padding: 7px 10px;
+   }
+   .content-edit {
+      padding: 0 15px;
    }
    .header-top {
       padding: 35px 15px 0;
@@ -63,62 +65,62 @@
          color: #ffffff;
       }
    }
-  .item-list .bg-right .item-view h3 {
+   .item-list .bg-right .item-view h3 {
       font-size: 18px;
       margin: 0 0 15px;
       padding-bottom: 15px;
-  }
-  .item-list-edit .bg-right-edit .item-view h3 {
-    font-size: 18px;
-    margin: 0 0 15px;
-    padding-bottom: 15px;
-  }
-  .item-list-edit .bg-right-edit .badge-primary {
+   }
+   .item-list-edit .bg-right-edit .item-view h3 {
+      font-size: 18px;
+      margin: 0 0 15px;
+      padding-bottom: 15px;
+   }
+   .item-list-edit .bg-right-edit .badge-primary {
       font-size: 20px;
       padding: 10px 0;
       width: 100%;
       line-height: 1.2;
-  }
-  .bloc-link {
-    padding: 35px !important;
-    margin: 0;
-  }
-  section.newsletter {
-    text-align: left!important;
-    padding: 2rem!important;
-    h2 {
-      margin: 0 0 20px;
-    }
-    p {
-      margin: 0 0 10px;
-    }
-    .form-signin {
-      margin: 0 auto 75px;
-      input.form-control {
-          border-radius: 3px;
-          height: 60px;
+   }
+   .bloc-link {
+      padding: 35px !important;
+      margin: 0;
+   }
+   section.newsletter {
+      text-align: left!important;
+      padding: 2rem!important;
+      h2 {
+         margin: 0 0 20px;
       }
-      .input-group-append {
-          margin-left: 0;
-          width: 100%;
-          margin-top: 30px;
+      p {
+         margin: 0 0 10px;
       }
-      .btn-secondary {
-          font-size: 20px;
-          margin: 0 auto;
-          display: table;
-          border-radius: 3px;
-          padding: 7px 20px;
+      .form-signin {
+         margin: 0 auto 75px;
+         input.form-control {
+            border-radius: 3px;
+            height: 60px;
+         }
+         .input-group-append {
+            margin-left: 0;
+            width: 100%;
+            margin-top: 30px;
+         }
+         .btn-secondary {
+            font-size: 20px;
+            margin: 0 auto;
+            display: table;
+            border-radius: 3px;
+            padding: 7px 20px;
+         }
       }
-    }
-  }
-  #doss {
-    .item-doss {
-       a {
-          font-size: 15px;
-       }
-    }
-  }
+   }
+   #doss {
+      .item-doss {
+         a {
+            font-size: 15px;
+         }
+      }
+   }
    .main-right {
       display: flex!important;
    }
@@ -145,10 +147,26 @@
       border: none;
    }
    .bottom-content {
-        padding: 0;
-    }
+      padding: 0;
+   }
+   main.container-fluid .jumbotron .main-left .p-btn-post {
+      margin: 25px 0 !important;
+   }
+   .breadcrumb {
+      margin: 0!important;
+      margin-bottom: 20px!important;
+      padding: 0;
+   }
+   main.container {
+      margin-top: 0 !important;
+   }
+   .main-right {
+      margin-top: 35px !important;
+   }
+}
 
-} /* -------------------------- */
+
+/* -------------------------- */
 
 @media (max-width: 607px) {
    .header-top {
