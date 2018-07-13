@@ -1,4 +1,20 @@
-@media (max-width: 1199px) {}
+@media (max-width: 1199px) {
+   #main {
+       margin-top: 100px;
+       margin-bottom: 88px;
+   }
+   .item-list .bg-left .list-group .list-group-item {
+       position: relative;
+       display: block;
+       padding: 0 0 12px;
+       margin-bottom: 22px;
+       padding-left: 25px;
+       width: 97%;
+   }
+   .item-list .bg-left .list-group {
+       padding-left: 0;
+   }
+}
 
 @media (min-width: 1050px) and (max-width: 1199px) {
    .header-top {
@@ -23,10 +39,25 @@
    h3 {
       font-size: 35px;
    }
-    .item-list .bg-left .list-group .list-group-item {
-      padding: .75rem 0;
-      font-size: 19px;
+
+   .item-list {
+    .bg-left {
+      .list-group {
+         padding-left: 0;
+        .list-group-item {
+            padding: .75rem 0;
+             font-size: 20px;
+             padding-left: 25px;
+             width: 95%;
+            margin-bottom: 5px;
+        }
+      }
     }
+   }
+
+   #doss .item-doss {
+      margin: 0 15px 25px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1050px) {

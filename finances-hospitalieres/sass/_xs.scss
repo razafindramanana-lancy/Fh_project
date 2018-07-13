@@ -3,11 +3,21 @@
       font-size: 25px;
    }
    h3 {
-      font-size: 18px !important;
-      margin: 0 0 25px;
+       font-size: 18px !important;
+       margin: 0 0 19px !important;
+       padding-bottom: 13px !important;
+       line-height: 1.28 !important;
+       border-bottom: 3px solid #0ba499 !important;
    }
    p {
-      font-size: 12px;
+      font-size: 12px !important;
+      margin: 0 0 14px !important;
+      line-height: 1.67 !important;
+   }
+   article.item-view {
+       position: relative;
+       padding: 15px 20px;
+       margin: 0 auto 30px;
    }
    .badge-primary {
       font-size: 15px;
@@ -16,17 +26,23 @@
    .content-edit {
       padding: 0 15px;
    }
+   .btn {
+     white-space: normal;
+   }
+   .header-top .user-btn {
+       margin-top: 0;
+   }
    .header-top {
       padding: 35px 15px 0;
       .logo {
          img {
             max-width: 100% !important;
             width: 415px !important;
-            margin-top: 35px;
+            margin-top: 20px;
          }
       }
       &::after {
-         height: 97px;
+         height: 67px;
       }
       .form-group {
          display: none;
@@ -36,6 +52,36 @@
          border-bottom: 1px solid #dbdbdb;
          padding-bottom: 5px;
       }
+   }
+
+   .item-list {
+      .bg-right {
+         .item-more {
+             width: 100%;
+             max-width: 420px;
+             padding: 0;
+             margin: 5px auto 0;
+             .btn-primary {
+                margin-bottom: 66px;
+            }
+         }
+      }
+   }
+   .item-list-edit {
+      .bg-right-edit {
+         .item-more {
+             margin: 68px auto 0;
+             .btn-primary {
+                margin-bottom: 53px;
+            }
+         }
+      }
+   }
+   aside.item-more.text-center img{
+      display: none;
+   }
+   .item-list-edit .bg-right-edit .badge-primary {
+       margin: 0 0 45px;
    }
    .navbar {
       margin: 0 !important;
@@ -54,6 +100,7 @@
          }
       }
    }
+
    section.newsletter {
       h2 {
          margin: 0 0 30px;
@@ -81,18 +128,30 @@
       width: 100%;
       line-height: 1.2;
    }
+   .item-list-edit .bg-right-edit .item-more .btn {
+     white-space: normal;
+   }
    .bloc-link {
-      padding: 35px !important;
+      padding: 35px 20px !important;
       margin: 0;
+      .p-link {
+          line-height: 1.33!important;
+          font-size: 15px !important;
+      }
+      .col-md-6 {
+          margin-bottom: 25px;
+      }
    }
    section.newsletter {
       text-align: left!important;
-      padding: 2rem!important;
+      padding: 30px 35px !important;
       h2 {
          margin: 0 0 20px;
       }
       p {
-         margin: 0 0 10px;
+          font-size: 15px !important;
+          margin: 0 0 21px !important;
+          line-height: normal !important;
       }
       .form-signin {
          margin: 0 auto 75px;
@@ -103,7 +162,7 @@
          .input-group-append {
             margin-left: 0;
             width: 100%;
-            margin-top: 30px;
+            margin-top: 23px;
          }
          .btn-secondary {
             font-size: 20px;
@@ -113,6 +172,9 @@
             padding: 7px 20px;
          }
       }
+   }
+   footer h3 {
+       border-bottom: none !important;
    }
    #doss {
       .item-doss {
@@ -132,8 +194,9 @@
    .navbar-toggler {
       color: #f6f6f6;
    }
-   main.container-fluid {
+   main.container {
       margin-top: 0 !important;
+      margin-bottom: 0 !important;
    }
    .xs-mod {
       max-width: 10% !important;
@@ -157,18 +220,18 @@
       margin-bottom: 20px!important;
       padding: 0;
    }
-   main.container {
-      margin-top: 0 !important;
-   }
    .main-right {
       margin-top: 35px !important;
+   }
+   .item-list .bg-right h2 {
+       padding-top: 0;
    }
 }
 
 
 /* -------------------------- */
 
-@media (max-width: 607px) {
+@media (max-width: 608px) {
    .header-top {
       padding: 35px 15px 0;
       .logo {
@@ -179,7 +242,7 @@
          }
       }
       &::after {
-         height: 117px;
+         height: 87px;
       }
    }
 }
@@ -195,7 +258,7 @@
          }
       }
       &::after {
-         height: 110px;
+         height: 81px;
       }
    }
 }
@@ -211,7 +274,7 @@
          }
       }
       &::after {
-         height: 125px;
+         height: 95px;
       }
    }
    .xs-mod {
@@ -227,7 +290,18 @@
 @media (min-width: 353px) and (max-width: 435px) {
    .header-top {
       &::after {
-         height: 105px;
+         height: 76px;
       }
    }
 }
+
+@media (max-width: 310px) {
+   .header-top {
+      .user-btn {
+         display: none;
+      }
+   }
+}
+
+
+

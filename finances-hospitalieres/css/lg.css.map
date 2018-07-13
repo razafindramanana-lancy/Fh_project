@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,0BAA2B;;EAGlB,qBAAI;IACD,KAAK,EAAE,KAAK;;;AAMxB,kDAAmD;;EAG1C,qBAAI;IACD,KAAK,EAAE,KAAK;;;EAGlB,kBAAS;IACN,MAAM,EAAE,IAAI;;;AAKrB,kDAAmD;;EAG1C,wCAAiB;IACd,KAAK,EAAE,gBAAgB;IACvB,mBAAmB,EAAE,SAAS;IAC9B,OAAO,EAAE,iBAAiB",
+"sources": ["../sass/lg.scss"],
+"names": [],
+"file": "lg.css"
+}
