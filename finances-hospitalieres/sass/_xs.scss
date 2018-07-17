@@ -1,13 +1,21 @@
 @media (max-width: 767px) {
    h2 {
       font-size: 25px;
+      &.font30 {
+         font-size: 25px;
+      }
+      &.price {
+         font-size: 70px;
+         margin: 35px auto 55px;
+         padding-bottom: 20px;
+      }
    }
    h3 {
-       font-size: 18px !important;
-       margin: 0 0 19px !important;
-       padding-bottom: 13px !important;
-       line-height: 1.28 !important;
-       border-bottom: 3px solid #0ba499 !important;
+      font-size: 18px !important;
+      margin: 0 0 19px !important;
+      padding-bottom: 13px !important;
+      line-height: 1.28 !important;
+      border-bottom: 3px solid #0ba499 !important;
    }
    p {
       font-size: 12px !important;
@@ -15,9 +23,9 @@
       line-height: 1.67 !important;
    }
    article.item-view {
-       position: relative;
-       padding: 15px 20px;
-       margin: 0 auto 30px;
+      position: relative;
+      padding: 15px 20px;
+      margin: 0 auto 30px;
    }
    .badge-primary {
       font-size: 15px;
@@ -27,10 +35,10 @@
       padding: 0 15px;
    }
    .btn {
-     white-space: normal;
+      white-space: normal;
    }
    .header-top .user-btn {
-       margin-top: 0;
+      margin-top: 0;
    }
    .header-top {
       padding: 35px 15px 0;
@@ -53,16 +61,15 @@
          padding-bottom: 5px;
       }
    }
-
    .item-list {
       .bg-right {
          .item-more {
-             width: 100%;
-             max-width: 420px;
-             padding: 0;
-             margin: 5px auto 0;
-             .btn-primary {
-                margin-bottom: 66px;
+            width: 100%;
+            max-width: 420px;
+            padding: 0;
+            margin: 5px auto 0;
+            .btn-primary {
+               margin-bottom: 66px;
             }
          }
       }
@@ -70,18 +77,18 @@
    .item-list-edit {
       .bg-right-edit {
          .item-more {
-             margin: 68px auto 0;
-             .btn-primary {
-                margin-bottom: 53px;
+            margin: 68px auto 0;
+            .btn-primary {
+               margin-bottom: 53px;
             }
          }
       }
    }
-   aside.item-more.text-center img{
+   aside.item-more.text-center img {
       display: none;
    }
    .item-list-edit .bg-right-edit .badge-primary {
-       margin: 0 0 45px;
+      margin: 0 0 45px;
    }
    .navbar {
       margin: 0 !important;
@@ -100,7 +107,6 @@
          }
       }
    }
-
    section.newsletter {
       h2 {
          margin: 0 0 30px;
@@ -129,17 +135,17 @@
       line-height: 1.2;
    }
    .item-list-edit .bg-right-edit .item-more .btn {
-     white-space: normal;
+      white-space: normal;
    }
    .bloc-link {
       padding: 35px 20px !important;
       margin: 0;
       .p-link {
-          line-height: 1.33!important;
-          font-size: 15px !important;
+         line-height: 1.33!important;
+         font-size: 15px !important;
       }
       .col-md-6 {
-          margin-bottom: 25px;
+         margin-bottom: 25px;
       }
    }
    section.newsletter {
@@ -149,9 +155,9 @@
          margin: 0 0 20px;
       }
       p {
-          font-size: 15px !important;
-          margin: 0 0 21px !important;
-          line-height: normal !important;
+         font-size: 15px !important;
+         margin: 0 0 21px !important;
+         line-height: normal !important;
       }
       .form-signin {
          margin: 0 auto 75px;
@@ -174,7 +180,7 @@
       }
    }
    footer h3 {
-       border-bottom: none !important;
+      border-bottom: none !important;
    }
    #doss {
       .item-doss {
@@ -205,9 +211,17 @@
       flex: 0 0 80% !important;
       max-width: 80% !important;
    }
-   footer .list {
-      margin-bottom: 30px;
-      border: none;
+   footer {
+      .list {
+         margin-bottom: 30px;
+         border: none;
+         border-bottom: 1px solid #dbdbdb;
+         padding-left: 35px;
+         padding-bottom: 25px;
+      }
+   }
+   footer .list-3 {
+      border-bottom: none;
    }
    .bottom-content {
       padding: 0;
@@ -224,7 +238,54 @@
       margin-top: 35px !important;
    }
    .item-list .bg-right h2 {
-       padding-top: 0;
+      padding-top: 0;
+   }
+   .bd-content p {
+      font-size: 17px !important;
+      margin: 0 0 20px !important;
+      line-height: 1.7 !important;
+   }
+   .item-list .bg-abonner span {
+      font-size: 18px;
+   }
+   .item-list .bg-abonner {
+      padding-top: 45px;
+      padding-right: 0;
+   }
+   .item-list .bg-left:before {
+      left: 0;
+      z-index: -1;
+   }
+   .item-list .bg-abonner p {
+      z-index: 2;
+      text-align: left;
+      border-top: none;
+      padding-top: 28px;
+      background: #ffffff;
+      margin: 0 0!important;
+      font-size: 15px !important;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: normal;
+      color: #0ba499;
+      border-bottom: solid 4px #f4f4f4;
+      padding-bottom: 10px;
+   }
+   .bg-form::after {
+      background-color: #ffffff;
+   }
+   .item-list .bg-formulaire h2 {
+      padding: 0;
+      font-size: 15px;
+      text-align: left;
+      margin: 40px 0;
+   }
+   .item-list .bg-formulaire .col-form-label {
+      text-align: left;
+   }
+   .item-list .bg-formulaire .form-control {
+      background-color: #ffffff;
    }
 }
 
@@ -247,7 +308,7 @@
    }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
    .header-top {
       padding: 35px 15px 0;
       .logo {
@@ -259,6 +320,59 @@
       }
       &::after {
          height: 81px;
+      }
+   }
+   .bd-sidebar {
+      margin-top: 0;
+      padding-left: 15px;
+      margin-bottom: 15px;
+      ol {
+         li {
+            width: auto;
+            height: auto;
+            display: inline-block !important;
+            padding: 5px 0;
+            margin: 0;
+            border: none;
+            a {
+               border-right: solid 1px #c7c7c7;
+               padding: 10px 15px;
+            }
+         }
+      }
+   }
+   .bd-content {
+      h3 {
+         font-size: 20px !important;
+      }
+      article.item-view {
+         .pub-fiche-edit {
+            margin: 42px auto 15px;
+            display: flex;
+         }
+         address {
+            font-size: 13px;
+            line-height: 1.54;
+         }
+         .para-fiche {
+            max-width: 100%;
+            margin-bottom: 0;
+         }
+      }
+      p {
+         font-size: 15px !important;
+         margin: 0 0 20px !important;
+         line-height: 1.6 !important;
+      }
+   }
+   .box-search {
+      padding: 40px 0 36px;
+      .form-group {
+         margin-bottom: 23px;
+      }
+      label.col-form-label {
+         margin-bottom: 23px;
+         padding: 0 0 0 5px;
       }
    }
 }
@@ -287,6 +401,16 @@
    }
 }
 
+@media (max-width: 425px) {
+   .select2-container {
+      display: flex;
+      .select2-choice {
+         padding: 5px 100px 5px 15px;
+         width: auto;
+      }
+   }
+}
+
 @media (min-width: 353px) and (max-width: 435px) {
    .header-top {
       &::after {
@@ -302,6 +426,3 @@
       }
    }
 }
-
-
-

@@ -23,6 +23,9 @@
    h3 {
       font-size: 30px;
    }
+   .item-list .bg-formulaire h2 {
+       padding: 107px 0 74px 74px;
+   }
 }
 
 @media (min-width: 991px) and (max-width: 1050px) {
@@ -61,5 +64,16 @@
              padding: 0 0 10px;
          }
       }
+   }
+   section.newsletter h2 {
+       font-size: 43px;
+   }
+   .item-list .bg-abonner ul li {
+       font-size: 23px;
+   }
+   .item-list .bg-abonner p {
+       font-size: 17px;
+       margin-top: 63px;
+       padding-top: 24px;
    }
 }

@@ -60,6 +60,14 @@
   }
 }
 
+@media (min-width: 1260px) {
+  .item-list .bg-formulaire h2 {
+      text-align: right;
+  }
+}
+
+
+
 @media (max-width: 1420px) {
    .header-top {
       .logo {
@@ -67,6 +75,12 @@
             width: 715px;
          }
       }
+   }
+}
+
+@media (min-width: 1380px) {
+   .item-list .bg-abonner p {
+      margin-left: -57px;
    }
 }
 

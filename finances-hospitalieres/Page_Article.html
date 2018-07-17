@@ -9,21 +9,18 @@
       <!-- Bootstrap core CSS -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/select2.css" rel="stylesheet">
       <link href="css/slick.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/xs.css">
-      <link rel="stylesheet" href="css/sm.css">
-      <link rel="stylesheet" href="css/md.css">
-      <link rel="stylesheet" href="css/lg.css">
    </head>
    <body>
       <header class="header-top">
          <div class="container-fluid">
             <div class="row d-flex">
                <div class="col-3 letter xs-mod">
-                  <div class="mt-auto d-none d-md-flex flex-column">
-                     <img src="images/couverture-lettre.jpg" alt="" style="width: 102px;">
-                     <a href="#" title="" class="alert-link mt-2"> Découvrir la lettre <img src="images/fill-1.png" style="width: 14px;" alt=""> </a>
+                  <div class="couv-top d-none d-md-flex flex-column">
+                     <img src="images/couverture-lettre.jpg" alt="" style="width: 102px; height:148px;">
+                     <a href="#" title="" class="alert-link"> Découvrir la lettre <img src="images/fill-1.png" style="width: 14px;" alt=""> </a>
                   </div>
                   <button class="d-sm-block d-xs-block d-md-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="fa fa-bars" aria-hidden="true"></i>
@@ -47,7 +44,7 @@
          </div>
       </header>
       <!-- header -->
-      <nav class="navbar navbar-expand-lg navbar-light mt-3 p-0">
+      <nav class="navbar navbar-expand-lg navbar-light">
          <div class="container">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <div class="nav nav-pills flex-column flex-sm-row nav-menu">
@@ -65,92 +62,103 @@
             </div>
          </div>
       </nav>
-      <div role="main" class="container">
+      <div class="container">
          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb mt-5 mb-4 px-0">
+            <ol class="breadcrumb">
                <li class="breadcrumb-item"><a href="#">Accueil</a></li>
                <li class="breadcrumb-item"><a href="#">Editorial-événement</a></li>
             </ol>
          </nav>
       </div>
-
-         <section class="jumbotron mb-5">
-
-         </section>
-
       <main role="main" class="container-fluid">
          <div class="row flex-xl-nowrap">
-
-            <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
-               <h1 class="bd-title text-center" id="content">Clearfix</h1>
+            <div class="col-12 col-sm-2 col-md-2 col-xl-2 bd-sidebar">
+               <ol class="list-unstyled m-0">
+                  <li class="d-flex">
+                     <a href="#" title="" class="m-auto">
+                     <img src="images/twitter.png" alt="">
+                     </a>
+                  </li>
+                  <li class="d-flex">
+                     <a href="#" title="" class="m-auto">
+                     <img src="images/mail.png" alt="">
+                     </a>
+                  </li>
+                  <li class="d-flex">
+                     <a href="#" title="" class="m-auto d-none d-sm-block d-md-block">
+                     <img src="images/print.png" alt="">
+                     </a>
+                  </li>
+                  <li class="d-flex">
+                     <a href="#" title="" class="m-auto">
+                     <img src="images/lire-plus.png" alt="">
+                     </a>
+                  </li>
+               </ol>
             </div>
-
-           <div class="col-12 col-md-9 col-xl-8 bd-content" role="main">
-            <article class="item-view p-4 mt-2 mb-0">
-             <span class="badge badge-primary mb-4"> Éditorial-événement </span>
-             <br>
-             <p class="blog-post-meta"> <a href="#"> Dans le n° 124 </a> - Mai 2018 </p>
-             <h3><a href="" title=""> Nouvelle réforme des modalités de financement ... et les GHT ? </a></h3>
-             <div class="row">
-               <div class="col-md-9 main-left">
-                  <p class="blog-post-meta"> <a href="#"> Dans le n° 124 </a> - Mai 2018 </p>
-                  <p class="blog-post-meta"> <a href="#"> Dans le n° 124 </a> - Mai 2018 </p>
-                  <p class="blog-post-meta"> <a href="#"> Dans le n° 124 </a> - Mai 2018 </p>
+            <div class="col-12 col-sm-10 col-md-8" role="main">
+               <div class="container bd-content">
+                  <article class="item-view">
+                     <span class="badge badge-primary mb-4"> Éditorial-événement </span>
+                     <br>
+                     <p class="blog-post-meta"> <a href="#"> Dans le n° 124 </a> - Mai 2018 </p>
+                     <h3><a href="" title=""> Nouvelle réforme des modalités de financement ... et les GHT ? </a></h3>
+                     <img src="images/publicite.jpg" class="img-fluid d-none d-sm-block d-md-block pub-fiche" alt="pub">
+                     <address>
+                        Par <a href=""> Gérard de Daran</a><br>
+                        Directeur d’hôpital<br>
+                        Professeur à l’IDM - EHESP (Rennes)<br>
+                     </address>
+                     <h4 class="d-none d-sm-block d-md-block">Adeste acie extremas colligi acie starent ut adeste viri attonitiacie viri iussit spes fortes fortes spes iussit stridens</h4>
+                     <br>
+                     <div class="para-fiche">
+                        <p> La Ministre des solidarités et de la santé a demandé début mars à Jean Marc Aubert, directeur de la DRESS, l'animation d'une " task force " dédiée à la réforme du système de santé et de produire un nouveau rapport " décrivant de manière précise les nouveaux modes de financement proposés ". Ce nouveau rapport est demandé 1an presque jour pour jour après la publication du rapport VERAN sur l'évolution des modes de financement des établissements de santé !
+                        </p>
+                        <p>Dans le même document, le ministère confirmant les estimations de la FHF, reconnait que les établissements de santé des trois secteurs connaissent une dégradation de leur situation financière par rapport à 2016. Cette dégradation s'inscrit dans un contexte malsain où depuis plusieurs mois, les publications ou reportages irresponsables de certains médias nationaux attestent d'une grave méconnaissance du système de financement " tarification à l'activité " et autres réalités hospitalières au mépris des personnels comme des patients.</p>
+                        <h5>Ceci est un intertitre</h5>
+                        <p>Alors même que le monde hospitalier revendiquait encore récemment une pause dans les réformes et une stabilité propice à la construction d'une trajectoire financière à moyen terme, faut-il craindre une nouvelle couche du millefeuille des réformes hospitalières ?</p>
+                        <p>Félix Faucon<span class="number"> (1) </span> a souligné récemment à juste titre " qu'à l'horizon visible, il ne paraît ni possible ni souhaitable d'abandonner les incitations à l'amélioration de la productivité et de la qualité. Et que le chemin sera long pour implémenter en France un nouveau modèle de financement liant parcours et pertinence des soins, et qui ne soit pas un retour à l'ancienne boîte noire de la dotation annuelle globale "</p>
+                        <p>Comment seront prises en compte les évolutions du modèle GHT en 2019 ? La création effective des GHT date de fin 2016, le projet médical et le projet de soins finalisés de juillet 2017. Le rapport intermédiaire de la mission GHT (mai 2015) évoquait déjà une solution " la plus raisonnable " en l'absence de modalités de financement au parcours et la " conviction que cette optimisation des organisations territoriales est de nature à générer des marges d'efficience ".</p>
+                        <p>On peut espérer que le nouveau rapport tirera les enseignements de la réalité ou du caractère virtuel de la solidarité financière au sein des GHT. Que la nécessaire évaluation de l'optimisation des organisations territoriales  influencera les financements et les modes de rémunération innovants qui sont l'ambition ministérielle. Que ces nouveaux modes de financement permettront enfin de désamorcer les postures concurrentielles au profit de la stratégie de groupe.</p>
+                        <p>Que la trajectoire financière " GHT " soumise à l'avis du comité stratégique, puisse enfin être construite, validée et pilotée à l'aune d'une vision à moyen terme et non plus seulement à horizon du prochain exercice budgétaire. Le PGFP " GHT " construit sur des choix stratégiques territoriaux (dont la politique d'investissement du groupement) et décliné sur des objectifs ciblés par établissement semble de moins en moins utopique. Avant la nouvelle réforme ( ?), les établissements ont tout intérêt à rendre visible la profondeur de leur intégration.</p>
+                        <p>Pour conclure sur une note optimiste, et dans l'attente des nouveaux modèles de financements annoncés pour la fin 2018, nous pouvons être rassurés car le Président de la République vient d'assurer " qu'il n'y aura pas d'économies sur l'hôpital durant le quinquennat " Alea jacta est !
+                        </p>
+                        <p class="bottom-p">
+                           Notes : <br>
+                           (1) IGAS, Enseignant en économie de la santé, Sciences Po Paris
+                        </p>
+                        <div class="baniere-web d-none d-sm-block d-md-block"> Bannière web <br> 768x90 </div>
+                        <img src="images/publicite.jpg" class="img-fluid pub-fiche-edit d-sm-none d-md-none d-lg-none d-xs-block" alt="pub">
+                     </div>
+                  </article>
                </div>
-               <div class="col-md-3 main-right d-xs-flex mt-2">
-                  <img src="images/publicite.jpg" class="img-fluid mx-auto mt-0" alt="pub">
-               </div>
             </div>
-               <p> La Ministre des solidarités et de la santé a demandé début mars à Jean Marc
-               Aubert, directeur de la DRESS, l'animation d'une " task force " dédiée à la
-               réforme du système de santé et de produire un nouveau rapport " décrivant de manière précise les nouveaux modes de financement proposés ". Ce nouveau rapport est demandé 1an presque jour pour jour après la publication du rapport VERAN sur l'évolution des modes de financement des établissements de santé !
-
-               Dans le même document, le ministère confirmant les estimations de la FHF, reconnait que les établissements de santé des trois secteurs connaissent une dégradation de leur situation financière par rapport à 2016. Cette dégradation s'inscrit dans un contexte malsain où depuis plusieurs mois, les publications ou reportages irresponsables de certains médias nationaux attestent d'une grave méconnaissance du système de financement " tarification à l'activité " et autres réalités hospitalières au mépris des personnels comme des patients.
-
-               Ceci est un intertitre
-               Alors même que le monde hospitalier revendiquait encore récemment une pause dans les réformes et une stabilité propice à la construction d'une trajectoire financière à moyen terme, faut-il craindre une nouvelle couche du millefeuille des réformes hospitalières ?
-
-               Félix Faucon(1)  a souligné récemment à juste titre " qu'à l'horizon visible, il ne paraît ni possible ni souhaitable d'abandonner les incitations à l'amélioration de la productivité et de la qualité. Et que le chemin sera long pour implémenter en France un nouveau modèle de financement liant parcours et pertinence des soins, et qui ne soit pas un retour à l'ancienne boîte noire de la dotation annuelle globale "
-
-               Comment seront prises en compte les évolutions du modèle GHT en 2019 ? La création effective des GHT date de fin 2016, le projet médical et le projet de soins finalisés de juillet 2017. Le rapport intermédiaire de la mission GHT (mai 2015) évoquait déjà une solution " la plus raisonnable " en l'absence de modalités de financement au parcours et la " conviction que cette optimisation des organisations territoriales est de nature à générer des marges d'efficience ".
-
-               On peut espérer que le nouveau rapport tirera les enseignements de la réalité ou du caractère virtuel de la solidarité financière au sein des GHT. Que la nécessaire évaluation de l'optimisation des organisations territoriales  influencera les financements et les modes de rémunération innovants qui sont l'ambition ministérielle. Que ces nouveaux modes de financement permettront enfin de désamorcer les postures concurrentielles au profit de la stratégie de groupe.
-
-               Que la trajectoire financière " GHT " soumise à l'avis du comité stratégique, puisse enfin être construite, validée et pilotée à l'aune d'une vision à moyen terme et non plus seulement à horizon du prochain exercice budgétaire. Le PGFP " GHT " construit sur des choix stratégiques territoriaux (dont la politique d'investissement du groupement) et décliné sur des objectifs ciblés par établissement semble de moins en moins utopique. Avant la nouvelle réforme ( ?), les établissements ont tout intérêt à rendre visible la profondeur de leur intégration.
-
-               Pour conclure sur une note optimiste, et dans l'attente des nouveaux modèles de financements annoncés pour la fin 2018, nous pouvons être rassurés car le Président de la République vient d'assurer " qu'il n'y aura pas d'économies sur l'hôpital durant le quinquennat " Alea jacta est !
-               </p>
-            </article>
-           </div>
-
-           <div class="d-none d-xl-block col-xl-2 bd-toc">
-               <h1 class="bd-title text-center" id="content">Clearfix</h1>
+            <div class="d-none d-md-block d-xl-block col-xl-2 col-md-2">
+               <!-- Bloc right -->
             </div>
-
          </div>
       </main>
-
-
       <div class="container">
+         <h2 class="h2-sim">Articles liés</h2>
          <div class="row">
-            <div class="col-md-4 d-flex mb-5">
-               <article class="item-view view-article p-4 mt-2 mb-0">
+            <div class="col-md-4 d-flex">
+               <article class="item-view view-article">
                   <h3><a href="" title=""> Veille documentaire - Activité externe à l’hôpital </a></h3>
                   <p class="blog-post-meta"> <a href="#"> Dans le n° 119 </a> - Décembre 2017 </p>
                   <p> Le 18 décembre dernier, la Fédération hospitalière de France (FHF) émettait un communiqué alarmant sur l'aggravation des déficits hospitaliers1, annonçant un montant prévisionnel de -1,5 milliards d'euros en 2017, soit 2% des budgets hospitaliers, contre 470 millions en 2016 (budget principal). Cette estimation repose sur les remontées des établissements à la fin du 3ème trimestre, elle peut donc... </p>
                   <p class="text-right m-0"><a href="" title="" class="btn-post"> Lire la suite <i class="fa fa-chevron-right" aria-hidden="true"></i> </a></p>
                </article>
             </div>
-            <div class="col-md-4 d-flex mb-5">
-               <article class="item-view view-article p-4 mt-2 mb-0">
+            <div class="col-md-4 d-flex">
+               <article class="item-view view-article">
                   <h3><a href="" title=""> Les Hôpitaux et la LFSS pour 2018 </a></h3>
                   <p class="blog-post-meta"> <a href="#"> Dans le n° 119 </a> - Décembre 2017 </p>
                   <p> Le 18 décembre dernier, la Fédération hospitalière de France (FHF) émettait un communiqué alarmant sur l'aggravation des déficits hospitaliers1, annonçant un montant prévisionnel de -1,5 milliards d'euros en 2017, soit 2% des budgets hospitaliers, contre 470 millions en 2016 (budget principal). Cette estimation repose sur les remontées des établissements à la fin du 3ème trimestre, elle peut donc... </p>
                   <p class="text-right m-0"><a href="" title="" class="btn-post"> Lire la suite <i class="fa fa-chevron-right" aria-hidden="true"></i> </a></p>
                </article>
             </div>
-            <div class="col-md-4 d-flex mb-5">
-               <article class="item-view view-article p-4 mt-2 mb-0">
+            <div class="col-md-4 d-flex">
+               <article class="item-view view-article">
                   <h3><a href="" title=""> Quels directeurs financiers pour l'hôpital de demain ? </a></h3>
                   <p class="blog-post-meta"> <a href="#"> Dans le n° 118 </a> - Novembre 2017 </p>
                   <p> Dans un article intitulé " Directeur financier : un métier aux multiples facettes " le précédent numéro de Finances Hospitalières mettait en lumière les résultats d'une recherche menée par ESCP Europe et le CNAM et consacrée aux directeurs financiers dans les établissements publics de santé. </p>
@@ -178,7 +186,7 @@
          </section>
       </div>
       <!-- /.container-fluid -->
-      <footer class="p-5 bloc">
+      <footer>
          <div class="container">
             <div class="row">
                <div class="col-12 col-md list list-1">
@@ -214,7 +222,7 @@
                <div class="col-12 col-md list list-3">
                   <h3>Rubriques</h3>
                   <div class="row">
-                     <div class="col d-flex" style="width: 102px;">
+                     <div class="col d-flex">
                         <ul class="list-unstyled text-small">
                            <li><a title="" href="#">Editorial-événement</a></li>
                            <li><a title="" href="#">Tarification & Facturation</a></li>
