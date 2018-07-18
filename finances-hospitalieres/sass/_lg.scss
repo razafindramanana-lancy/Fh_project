@@ -1,72 +1,64 @@
 @import "compass/css3";
-
 @media (min-width: 1200px) {
    #main {
       margin-top: 100px;
       margin-bottom: 88px;
    }
-
    .cust-col-47 {
-       -ms-flex: 0 0 47%;
-       flex: 0 0 47%;
-       max-width: 47%;
+      -ms-flex: 0 0 47%;
+      flex: 0 0 47%;
+      max-width: 47%;
    }
-
    .cust-col-53 {
-       -ms-flex: 0 0 53%;
-       flex: 0 0 53%;
-       max-width: 53%;
+      -ms-flex: 0 0 53%;
+      flex: 0 0 53%;
+      max-width: 53%;
    }
-
-
    .esp-120 {
       margin: 0 -60px;
-      > * {
+      >* {
          padding: 0 60px;
       }
    }
    .esp-92 {
       margin: 0 -46px;
-      > * {
+      >* {
          padding: 0 46px;
       }
    }
-
-   #doss{
+   #doss {
       margin: 0 -24px;
-      > .item-doss {
+      >.item-doss {
          margin: 0 24px;
       }
    }
-  .item-list {
-    .bg-left {
-      .list-group {
-        .list-group-item {
-            padding-left: 25px;
-            margin-left: -25px;
-        }
+   .item-list {
+      .bg-left {
+         .list-group {
+            .list-group-item {
+               padding-left: 25px;
+               margin-left: -25px;
+            }
+         }
       }
-    }
-  }
+   }
 }
 
 @media (max-width: 1260px) {
-  .item-list {
-    .bg-left {
-      .list-group {
-        padding-left: 25px;
+   .item-list {
+      .bg-left {
+         .list-group {
+            padding-left: 25px;
+         }
       }
-    }
-  }
+   }
 }
 
 @media (min-width: 1260px) {
-  .item-list .bg-formulaire h2 {
+   .item-list .bg-formulaire h2 {
       text-align: right;
-  }
+   }
 }
-
-
 
 @media (max-width: 1420px) {
    .header-top {

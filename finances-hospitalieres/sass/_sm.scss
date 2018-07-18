@@ -5,6 +5,41 @@
       padding-bottom: 0;
       overflow: visible!important;
    }
+   .bg-formulaire {
+      .form-control {
+         &::-webkit-input-placeholder {
+            color: #f6f6f6;
+         }
+         &:-moz-placeholder {
+            color: #f6f6f6;
+         }
+         &::-moz-placeholder {
+            color: #f6f6f6;
+         }
+         &:-ms-input-placeholder {
+            color: #f6f6f6;
+         }
+      }
+   }
+   .bloc-form-info {
+      .bg-formulaire {
+         .form-control {
+            background-color: #ffffff;
+            &::-webkit-input-placeholder {
+               color: #ffffff;
+            }
+            &:-moz-placeholder {
+               color: #ffffff;
+            }
+            &::-moz-placeholder {
+               color: #ffffff;
+            }
+            &:-ms-input-placeholder {
+               color: #ffffff;
+            }
+         }
+      }
+   }
 }
 
 @media(max-width: 991px) {
@@ -24,7 +59,7 @@
       font-size: 30px;
    }
    .item-list .bg-formulaire h2 {
-       padding: 107px 0 74px 74px;
+      padding: 107px 0 74px 74px;
    }
 }
 
@@ -59,21 +94,21 @@
    .navbar {
       .nav-menu {
          .nav-link {
-             font-size: 13px;
-             margin: 0px 5px;
-             padding: 0 0 10px;
+            font-size: 13px;
+            margin: 0px 5px;
+            padding: 0 0 10px;
          }
       }
    }
    section.newsletter h2 {
-       font-size: 43px;
+      font-size: 43px;
    }
    .item-list .bg-abonner ul li {
-       font-size: 23px;
+      font-size: 23px;
    }
    .item-list .bg-abonner p {
-       font-size: 17px;
-       margin-top: 63px;
-       padding-top: 24px;
+      font-size: 17px;
+      margin-top: 63px;
+      padding-top: 24px;
    }
 }

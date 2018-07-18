@@ -48,16 +48,16 @@
          <div class="container">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <div class="nav nav-pills flex-column flex-sm-row nav-menu">
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Editorial Evenement </a>
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Tarification & Facturation </a>
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Commande publique </a>
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Marchés Financiers </a>
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Gestion Financière </a>
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Performance </a>
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Analyse de gestion & Audit </a>
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Budget & Comptabilité </a>
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Juridique </a>
-                  <a class="flex-sm-fill text-sm-center nav-link" href="#"> Veille documentaire </a>
+                  <a class="flex-sm-fill nav-link" id="Editorial" href="#"> Editorial Evenement </a>
+                  <a class="flex-sm-fill nav-link" id="Tarification" href="#"> Tarification & Facturation </a>
+                  <a class="flex-sm-fill nav-link" id="Commande" href="#"> Commande publique </a>
+                  <a class="flex-sm-fill nav-link" id="Marches" href="#"> Marchés Financiers </a>
+                  <a class="flex-sm-fill nav-link" id="Gestion" href="#"> Gestion Financière </a>
+                  <a class="flex-sm-fill nav-link" id="Performance" href="#"> Performance </a>
+                  <a class="flex-sm-fill nav-link" id="Analyse" href="#"> Analyse de gestion & Audit </a>
+                  <a class="flex-sm-fill nav-link" id="Budget" href="#"> Budget & Comptabilité </a>
+                  <a class="flex-sm-fill nav-link" id="Juridique" href="#"> Juridique </a>
+                  <a class="flex-sm-fill nav-link" id="Veille" href="#"> Veille documentaire </a>
                </div>
             </div>
          </div>
@@ -91,20 +91,21 @@
                      <p><em>*Abonnement couplé 400 euros papier + 15 euros un accès au site</em> <br> Pour des accès multiples ou tout autre renseignement : 09 81 07 95 76.</p>
                   </div>
                </div>
-               <div class="cust-col-53 col-md-7 overflow-hidden">
+
+               <div class="cust-col-53 col-md-7 offset-md-0 col-sm-10 offset-sm-2 overflow-hidden">
                   <div class="bg-right bg-formulaire">
                      <h2>Pour vous abonner, merci de remplir le formulaire suivant :</h2>
                      <form>
                         <div class="form-group row">
-                           <label for="inputSociety" class="col-sm-4 col-form-label">Société</label>
-                           <div class="col-sm-6">
-                              <input class="form-control" type="text" placeholder="">
+                           <label for="inputSociety" class="d-none d-md-block col-md-4 col-form-label">Société</label>
+                           <div class="col-xs-6 col-sm-6">
+                              <input class="form-control" type="text" placeholder="Société">
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="inputCivility" class="col-sm-4 col-form-label">Civilité *</label>
+                           <label for="inputCivility" class="d-none d-md-block col-md-4 col-form-label">Civilité *</label>
                            <div class="col-sm-3">
-                              <select class="form-control" id="exampleFormControlSelect1">
+                              <select class="form-control" id="exampleFormControlSelect1" placeholder="Civilité *">
                                  <option></option>
                                  <option>1</option>
                                  <option>2</option>
@@ -113,86 +114,85 @@
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="inputName" class="col-sm-4 col-form-label">Nom *</label>
+                           <label for="inputName" class="d-none d-md-block col-md-4 col-form-label">Nom *</label>
                            <div class="col-sm-8">
-                              <input class="form-control" type="text" placeholder="" required>
+                              <input class="form-control" type="text" placeholder="Nom *" required>
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="inputLastname" class="col-sm-4 col-form-label">Prénom *</label>
+                           <label for="inputLastname" class="d-none d-md-block col-md-4 col-form-label">Prénom *</label>
                            <div class="col-sm-8">
-                              <input class="form-control" type="text" placeholder="" required>
+                              <input class="form-control" type="text" placeholder="Prénom *" required>
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="inputFunction" class="col-sm-4 col-form-label">Fonction *</label>
+                           <label for="inputFunction" class="d-none d-md-block col-md-4 col-form-label">Fonction *</label>
                            <div class="col-sm-6">
-                              <input class="form-control" type="text" placeholder="" required>
+                              <input class="form-control" type="text" placeholder="Fonction *" required>
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="Textarea1" class="col-sm-4 col-form-label">Adresse 1 *</label>
+                           <label for="Textarea1" class="d-none d-md-block col-md-4 col-form-label">Adresse 1 *</label>
                            <div class="col-sm-8">
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Adresse 1 *"></textarea>
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="Textarea2" class="col-sm-4 col-form-label">Adresse 2</label>
+                           <label for="Textarea2" class="d-none d-md-block col-md-4 col-form-label">Adresse 2</label>
                            <div class="col-sm-8">
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Adresse 2"></textarea>
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="inputPostal" class="col-sm-4 col-form-label">Code postal *</label>
+                           <label for="inputCity" class="d-none d-md-block col-md-4 col-form-label">Ville *</label>
+                           <div class="col-sm-8">
+                              <input class="form-control" type="text" placeholder="Ville *" required>
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="inputPostal" class="d-none d-md-block col-md-4 col-form-label">Code postal *</label>
                            <div class="col-sm-4">
-                              <input class="form-control" type="text" placeholder="" required>
+                              <input class="form-control" type="text" placeholder="Code postal *" required>
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="inputPhone1" class="col-sm-4 col-form-label">Téléphone pro *</label>
+                           <label for="inputPhone1" class="d-none d-md-block col-md-4 col-form-label">Téléphone pro *</label>
                            <div class="col-sm-5">
-                              <input class="form-control" type="text" placeholder="" required>
+                              <input class="form-control" type="text" placeholder="Téléphone pro *" required>
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="inputPhone2" class="col-sm-4 col-form-label">Téléphone portable *</label>
+                           <label for="inputPhone2" class="d-none d-md-block col-md-4 col-form-label">Téléphone portable *</label>
                            <div class="col-sm-5">
-                              <input class="form-control" type="text" placeholder="" required>
+                              <input class="form-control" type="text" placeholder="Téléphone portable *" required>
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="inputFax" class="col-sm-4 col-form-label">Fax</label>
+                           <label for="inputFax" class="d-none d-md-block col-md-4 col-form-label">Fax</label>
                            <div class="col-sm-5">
-                              <input class="form-control" type="text" placeholder="">
+                              <input class="form-control" type="text" placeholder="Fax">
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="inputEmail" class="col-sm-4 col-form-label">Email *</label>
+                           <label for="inputEmail" class="d-none d-md-block col-md-4 col-form-label">Email *</label>
                            <div class="col-sm-6">
-                              <input type="email" class="form-control" id="inputEmail3" placeholder="" required>
+                              <input type="email" class="form-control" id="inputEmail3" placeholder="Email *" required>
                            </div>
                         </div>
                         <div class="form-group row">
-                           <label for="inputPassword" class="col-sm-4 col-form-label">Login *</label>
+                           <label for="inputPassword" class="d-none d-md-block col-md-4 col-form-label">Login *</label>
                            <div class="col-sm-6">
-                              <input type="password" class="form-control" id="inputPassword3" placeholder="" required>
+                              <input type="password" class="form-control" id="inputPassword3" placeholder="Login *" required>
                            </div>
                         </div>
                         <div class="row">
-                           <div class="col-sm-4 col-form-label">
+                           <div class="d-none d-md-block col-md-4 col-form-label">
                               <!-- label -->
                            </div>
-                           <div class="col-sm-6">
+                           <div class="col-sm-5">
                               <span>Image de contrôle</span>
                               <div class="captcha"></div>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-sm-4 col-form-label">
-                              <!-- label -->
-                           </div>
-                           <div class="col-sm-6 item-more">
-                              <button class="btn btn-lg btn-primary" type="submit"> Valider</button>
+                              <a class="btn btn-primary" href="#" role="button type="submit" value="Submit">Valider</a>
                            </div>
                         </div>
                      </form>
@@ -284,7 +284,6 @@
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
       <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
       <script type="text/javascript" src="js/popper.min.js"></script>
-      <script type="text/javascript" src="js/slick.min.js"></script>
       <script type="text/javascript" src="js/application.js"></script>
    </body>
 </html>
