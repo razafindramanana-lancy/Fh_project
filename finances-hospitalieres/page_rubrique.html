@@ -22,9 +22,7 @@
                      <img src="images/couverture-lettre.jpg" alt="" style="width: 102px; height:148px;">
                      <a href="#" title="" class="alert-link"> Découvrir la lettre <img src="images/fill-1.png" style="width: 14px;" alt=""> </a>
                   </div>
-                  <button class="d-sm-block d-xs-block d-md-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <i class="fa fa-bars" aria-hidden="true"></i>
-                  </button>
+                  <button type="button" class="btn btn-primary btn-modal d-sm-block d-xs-block d-md-none" data-toggle="modal" data-target="#exampleModalLong"><i class="fa fa-bars" aria-hidden="true"></i></button>
                </div>
                <div class="col-6  text-center d-flex mx-auto mod">
                   <div class="d-flex mt-auto mx-auto flex-column">
@@ -44,21 +42,19 @@
          </div>
       </header>
       <!-- header -->
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light d-none d-md-block">
          <div class="container">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <div class="nav nav-pills flex-column flex-sm-row nav-menu">
-                  <a class="flex-sm-fill nav-link" id="Editorial" href="#"> Editorial Evenement </a>
-                  <a class="flex-sm-fill nav-link" id="Tarification" href="#"> Tarification & Facturation </a>
-                  <a class="flex-sm-fill nav-link" id="Commande" href="#"> Commande publique </a>
-                  <a class="flex-sm-fill nav-link" id="Marches" href="#"> Marchés Financiers </a>
-                  <a class="flex-sm-fill nav-link" id="Gestion" href="#"> Gestion Financière </a>
-                  <a class="flex-sm-fill nav-link" id="Performance" href="#"> Performance </a>
-                  <a class="flex-sm-fill nav-link" id="Analyse" href="#"> Analyse de gestion & Audit </a>
-                  <a class="flex-sm-fill nav-link" id="Budget" href="#"> Budget & Comptabilité </a>
-                  <a class="flex-sm-fill nav-link" id="Juridique" href="#"> Juridique </a>
-                  <a class="flex-sm-fill nav-link" id="Veille" href="#"> Veille documentaire </a>
-               </div>
+            <div class="nav nav-pills flex-column flex-sm-row nav-menu">
+               <a class="flex-sm-fill nav-link" href="#"> Editorial Evenement </a>
+               <a class="flex-sm-fill nav-link" href="#"> Tarification & Facturation </a>
+               <a class="flex-sm-fill nav-link" href="#"> Commande publique </a>
+               <a class="flex-sm-fill nav-link" href="#"> Marchés Financiers </a>
+               <a class="flex-sm-fill nav-link" href="#"> Gestion Financière </a>
+               <a class="flex-sm-fill nav-link" href="#"> Performance </a>
+               <a class="flex-sm-fill nav-link" href="#"> Analyse de gestion & Audit </a>
+               <a class="flex-sm-fill nav-link" href="#"> Budget & Comptabilité </a>
+               <a class="flex-sm-fill nav-link" href="#"> Juridique </a>
+               <a class="flex-sm-fill nav-link" href="#"> Veille documentaire </a>
             </div>
          </div>
       </nav>
@@ -85,7 +81,7 @@
                      <p class="text-right m-0"><a href="" title="" class="btn-post"> Lire la suite <i class="fa fa-chevron-right" aria-hidden="true"></i> </a></p>
                   </article>
                </div>
-               <div class="col-md-4 main-right d-xs-flex mt-2">
+               <div class="col-md-4 main-right d-xs-flex">
                   <img src="images/publicite.jpg" class="img-fluid mx-auto mt-0" alt="pub">
                </div>
             </div>
@@ -275,6 +271,46 @@
          </div>
          <!-- /.container-fluid -->
       </footer>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  <form class="form-group">
+                     <input class="form-control" type="text" placeholder=" " required="" autofocus="">
+                  </form>
+               </div>
+               <div class="modal-body">
+                  <div class="menu-xs">
+                     <a class="link" id="Editorial" href="#"> Editorial Evenement </a>
+                     <a class="link" id="Tarification" href="#"> Tarification & Facturation </a>
+                     <a class="link" id="Commande" href="#"> Commande publique </a>
+                     <a class="link" id="Marches" href="#"> Marchés Financiers </a>
+                     <a class="link" id="Gestion" href="#"> Gestion Financière </a>
+                     <a class="link" id="Performance" href="#"> Performance </a>
+                     <a class="link" id="Analyse" href="#"> Analyse de gestion & Audit </a>
+                     <a class="link" id="Budget" href="#"> Budget & Comptabilité </a>
+                     <a class="link" id="Juridique" href="#"> Juridique </a>
+                     <a class="link" id="Veille" href="#"> Veille documentaire </a>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <ul class="list-unstyled">
+                     <li><a href="">Nos partenaires</a></li>
+                     <li><a href="">Nos offres d’emploi</a></li>
+                     <li><a href="">Nos formations</a></li>
+                     <li><a href="">Contactez-nous</a></li>
+                     <li><a href="">À lire plus tard</a></li>
+                     <li><a href="">Mon profil</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Script -->
       <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
       <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>

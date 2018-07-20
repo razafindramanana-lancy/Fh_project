@@ -9,6 +9,11 @@
          margin: 35px auto 55px;
          padding-bottom: 20px;
       }
+      &.title-section {
+          margin: 0 0 21px;
+          font-size: 25px;
+          line-height: normal;
+      }
    }
    h3 {
       font-size: 18px !important;
@@ -21,6 +26,13 @@
       font-size: 12px !important;
       margin: 0 0 14px !important;
       line-height: 1.67 !important;
+   }
+   .esp-120 {
+      margin: 0 -30px;
+      padding: 0;
+   }
+   .btn-modal {
+      color: #f6f6f6;
    }
    article.item-view {
       position: relative;
@@ -232,9 +244,7 @@
          margin-top: 25px;
       }
    }
-   .navbar-toggler {
-      color: #f6f6f6;
-   }
+
    main.container {
       margin-top: 0 !important;
       margin-bottom: 0 !important;
@@ -270,7 +280,8 @@
       padding: 0;
    }
    .main-right {
-      margin-top: 35px !important;
+      margin-bottom: 27px;
+      margin-top: 0 !important;
    }
    .item-list .bg-right h2 {
       padding-top: 0;
@@ -375,6 +386,22 @@
        background-color: #009d93;
        white-space: normal;
    }
+   .bloc-table {
+      margin: 0;
+      .top-c {
+          border-top: none;
+          margin-top: 0;
+      }
+   }
+   .p-table {
+       font-size: 18px !important;
+       line-height: 1.44 !important;
+       color: #0ba499 !important;
+       margin: 54px 0 13px !important;
+   }
+   footer {
+       padding-bottom: 0;
+   }
 }
 
 
@@ -465,7 +492,7 @@
    }
 
    .bloc-table {
-      margin: 54px 0 0;
+      margin: 0;
       .top-a{
          border-bottom: solid 4px #f4f4f4;
          padding-top: 15px;
@@ -476,6 +503,9 @@
          b {
             font-size: 15px;
          }
+      }
+      .top-c {
+          border-top: none;
       }
 
       b {
