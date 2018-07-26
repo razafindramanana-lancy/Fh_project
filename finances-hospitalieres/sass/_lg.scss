@@ -26,12 +26,7 @@
          padding: 0 46px;
       }
    }
-   #doss {
-      margin: 0 -24px;
-      >.item-doss {
-         margin: 0 24px;
-      }
-   }
+
    .item-list {
       .bg-left {
          .list-group {
@@ -41,6 +36,9 @@
             }
          }
       }
+   }
+   .header-top .logo img {
+       max-width: 100%;
    }
 }
 
@@ -67,12 +65,6 @@
             width: 715px;
          }
       }
-   }
-}
-
-@media (min-width: 1380px) {
-   .item-list .bg-abonner p {
-      margin-left: -57px;
    }
 }
 

@@ -61,6 +61,16 @@
    .item-list .bg-formulaire h2 {
       padding: 107px 0 74px 74px;
    }
+   .mod {
+       padding-left: 0;
+   }
+   .form-edit .col-form-label {
+      flex: 0 0 20%;
+      max-width: 20%;
+   }
+   #doss .item-doss a {
+      font-size: 20px;
+   }
 }
 
 @media (min-width: 991px) and (max-width: 1050px) {
@@ -88,7 +98,7 @@
       }
       .logo-titre {
          margin: 10px auto 30px;
-         width: 60%;
+         width: 100%;
       }
    }
    .navbar {
